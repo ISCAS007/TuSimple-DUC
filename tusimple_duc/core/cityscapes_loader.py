@@ -7,7 +7,7 @@ import random
 import mxnet as mx
 import numpy as np
 
-import utils
+from . import utils
 
 
 class CityLoader(mx.io.DataIter):

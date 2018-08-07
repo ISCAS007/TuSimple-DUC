@@ -10,7 +10,7 @@ import cv2 as cv
 import mxnet as mx
 import numpy as np
 
-import cityscapes_labels
+from . import cityscapes_labels
 
 
 # save symbol
